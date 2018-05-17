@@ -17,6 +17,8 @@ class Renderer
     heel_height
   end
 
+  private
+
   def name
     puts "#{@filename[0..-5]}:"
   end
